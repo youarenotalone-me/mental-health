@@ -406,7 +406,7 @@ body, html {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color:#5e847c;
+    background-color:rgb(111, 153, 145);
    padding-top: 0px;
     /* position: absolute; 
         top: 100%; 

@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #fff !important;
+  color: #000 !important;
+  overflow-x: hidden !important;
+}
+#test a {
+  color: #000 !important;
+  text-decoration: none !important;
+  font-size: calc(
+    16px + (21 - 16) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+html {
+  overflow-x: hidden !important;
+}
+
+.card-0 {
+  overflow-x: hidden !important;
+  padding: auto 0px auto 0px !important ;
+  background-color: #000f2e !important;
+  color: #ffffff !important;
+  border-radius: 0;
+  margin: 0 !important;
+  background: url("https://i.imgur.com/4uwpRtg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right
+    calc(70px + (120 - 70) * ((100vw - 320px) / (1600 - 320))) bottom !important;
+}
+
+h5 {
+  font-size: calc(
+    16px + (21 - 16) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+h6 {
+  font-size: calc(
+    13px + (15 - 13) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+  color: #3f3d3d !important;
+}
+.fa {
+  cursor: pointer;
+  font-size: 21px;
+  margin: 5px 10px 5px 10px !important;
+}
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+input {
+  border-radius: 2px !important;
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+input:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+  border-color: #ffffff !important;
+}
+
+img {
+  vertical-align: middle !important;
+  width: 100%;
+  width: calc(30px + 6 * ((100vw - 320px) / 680)) !important;
+}
+
+li:first-child {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+small {
+  font-size: calc(
+    12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+p {
+  font-size: calc(
+    14px + (16 - 14) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+  color: rgb(78, 77, 77) !important;
+}
+
+.social {
+  position: relative;
+  left: -10px;
+}
+
+.Subscribe {
+  background-color: #ffffff !important;
+  font-weight: bold;
+}
+
+small {
+  color: #777 !important;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+.card-1 {
+  border-left: 3px solid green !important;
+  border-radius: 0;
+}
+
+img {
+  width: 25px !important;
+}
+
+
+hr.colored {
+    height: 8px;
+    background: linear-gradient(
+      to left,
+      rgba(196, 222, 138, 1) 0%,
+      rgba(196, 222, 138, 1) 12.5%,
+      rgba(245, 253, 212, 1) 12.5%,
+      rgba(245, 253, 212, 1) 25%,
+      rgba(255, 208, 132, 1) 25%,
+      rgba(255, 208, 132, 1) 37.5%,
+      rgba(242, 122, 107, 1) 37.5%,
+      rgba(242, 122, 107, 1) 50%,
+      rgba(223, 157, 185, 1) 50%,
+      rgba(223, 157, 185, 1) 62.5%,
+      rgba(192, 156, 221, 1) 62.5%,
+      rgba(192, 156, 221, 1) 75%,
+      rgba(95, 156, 217, 1) 75%,
+      rgba(95, 156, 217, 1) 87.5%,
+      rgba(94, 190, 227, 1) 87.5%,
+      rgba(94, 190, 227, 1) 87.5%,
+      rgba(94, 190, 227, 1) 100%
+    ); /* W3C */
+  }
+  
+  .fa {
+    padding: calc(10px + (10 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    font-size: calc(
+      15px + (20 - 15) * ((100vw - 360px) / (1600 - 360))
+    ) !important;
+    width: calc(30px + (38 - 30) * ((100vw - 360px) / (1600 - 360))) !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px !important;
+    margin: 6px !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: #aef3b0;
+  }
+  .fa:hover {
+    background-color: white !important;
+  }
+  .fa-twitter {
+    background: #55acee;
+    color: #aef3b0;
+  }
+  
+  .fa-instagram {
+    background: #3f729b;
+    color: #aef3b0;
+  }
+  
+  .fa-linkedin {
+    background: #0e76a8;
+    color: #aef3b0;
+  }
+  
+  .form-row {
+    position: relative;
+    left: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+  }
+  
+  @media screen and (max-width: 726px) {
+    .form-row {
+      position: relative;
+      left: 0px !important;
+    }
+  }
+  @media screen and (max-width: 1143px) {
+    .card-0 {
+      background: none;
+    }
+  }
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+html,body{
+  margin:0;
+  height:120%;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+a{
+  text-decoration:none
+}
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color: white;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:200%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden; 
+    /* scale(1.0, 1.0); */
+    transform: translateZ(0);
+  background:#1B2030 url(https://www.adecco.ca/-/media/adeccogroup/brands/adecco-global-2016/canada/media/images/blog/diversity-and-inclusion-in-the-workplace-how-to-build-it-back-better.jpg) 50% 0 repeat-y;
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 60s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2;
+  background-color: #5f4635
+}
+.header a{
+  color:white
+}
+.menu{
+  display:block;
+  width:40px;
+  height:30px;
+  border:2px solid white;
+  border-radius:3px;
+  position:absolute;
+  right:20px;
+  top:20px;
+  text-decoration:none
+}
+.menu:after{
+  content:"";
+  display:block;
+  width:20px;
+  height:3px;
+  background:white;
+  position:absolute;
+  margin:0 auto;
+  top:5px;
+  left:0;
+  right:0;
+  box-shadow:0 8px, 0 16px
+}
+.logo{
+  border:2px solid white;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  align-content:center;
+  margin:20px;
+  padding:0px 10px;
+  font-weight:900;
+  font-size:1.1em;
+  line-height:1;
+  box-sizing:border-box;
+  height:40px
+}
+.sides, .info{
+  flex: 0 0 auto;
+  width:50%
+}
+.info{
+  width:100%;
+  padding:15% 10% 0 10%;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+.author{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(https://i.imgur.com/6DLCsZcb.jpg) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+}
+.info h4, .meta{
+  font-size:0.7em
+}
+.meta{
+  font-style:italic;
+}
+@keyframes grow{
+  0% { transform: scale(1) translateY(0px)}
+  50% { transform: scale(1.2) translateY(-400px)}
+}
+.content{  
+    background-color:  rgb(249, 232, 205);
+  padding:5% 5%;
+  text-align:justify
+}
+.btn{
+  color:#333;
+  border:2px solid;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-block;
+  padding:5px 10px;
+  font-weight:600
+}
+
+.twtr{
+  margin-top:50px
+}.btn.twtr:after{content:"\1F647";padding-left:5px}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+    margin-bottom: 30px;
+    color:  white;
+    
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #aef3b0;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://esgclarity.com/wp-content/uploads/2020/09/diversity-2-scaled.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  /* footer{
+      position: relative;
+      z-index: 10;
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+  } */
+#footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(249, 232, 205);
+   padding-top: 0px;
+    /* position: absolute; 
+        top: 100%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        height: 300px; 
+        width: 600px; 
+        border-radius: 450px 450px 0 0;  */
+        
+}
+li{
+    list-style: none;
+}
+.list-unstyled{
+    padding-top: 10%;
+    overflow: hidden;
+}

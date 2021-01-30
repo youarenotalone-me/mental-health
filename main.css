@@ -93,7 +93,7 @@ p {
   font-size: calc(
     14px + (16 - 14) * ((100vw - 360px) / (1600 - 360))
   ) !important;
-  color: rgb(78, 77, 77) !important;
+
 }
 
 .social {
@@ -169,7 +169,7 @@ hr.colored {
     color: #aef3b0;
   }
   .fa:hover {
-    background-color: white !important;
+    background-color: rgb(134, 189, 166) !important;
   }
   .fa-twitter {
     background: #55acee;
@@ -178,7 +178,7 @@ hr.colored {
   
   .fa-instagram {
     background: #3f729b;
-    color: #aef3b0;
+    color: #ffffff;
   }
   
   .fa-linkedin {
@@ -228,7 +228,7 @@ a{
   min-height:400px;
   max-height:550px;
   min-width:300px;
-  color: white;
+  color: rgb(134, 189, 166);
 }
 .header:after{
   content:"";
@@ -251,22 +251,22 @@ a{
     -webkit-transform: translateZ(0); backface-visibility: hidden; 
     /* scale(1.0, 1.0); */
     transform: translateZ(0);
-  background:#1B2030 url(https://www.adecco.ca/-/media/adeccogroup/brands/adecco-global-2016/canada/media/images/blog/diversity-and-inclusion-in-the-workplace-how-to-build-it-back-better.jpg) 50% 0 repeat-y;
+  background: rgb(111, 153, 145) url(https://www.adecco.ca/-/media/adeccogroup/brands/adecco-global-2016/canada/media/images/blog/diversity-and-inclusion-in-the-workplace-how-to-build-it-back-better.jpg) 50% 0 repeat-y;
   background-size:100%;
   background-attachment:fixed;
-  animation: grow 60s  linear 10ms infinite;
+  animation: grow 60000000s  linear 1000ms infinite;
   transition:all 0.4s ease-in-out;
   z-index:-2;
   background-color: #5f4635
 }
 .header a{
-  color:white
+  color:rgb(134, 189, 166)
 }
 .menu{
   display:block;
   width:40px;
   height:30px;
-  border:2px solid white;
+  border:2px solid rgb(134, 189, 166);
   border-radius:3px;
   position:absolute;
   right:20px;
@@ -278,7 +278,7 @@ a{
   display:block;
   width:20px;
   height:3px;
-  background:white;
+  background:rgb(134, 189, 166);
   position:absolute;
   margin:0 auto;
   top:5px;
@@ -287,7 +287,7 @@ a{
   box-shadow:0 8px, 0 16px
 }
 .logo{
-  border:2px solid white;
+  border:2px solid rgb(134, 189, 166);
   border-radius:3px;
   text-decoration:none;
   display:inline-flex;
@@ -299,7 +299,8 @@ a{
   font-size:1.1em;
   line-height:1;
   box-sizing:border-box;
-  height:40px
+  height:40px;
+  background-color: white;
 }
 .sides, .info{
   flex: 0 0 auto;
@@ -332,7 +333,7 @@ a{
   50% { transform: scale(1.2) translateY(-400px)}
 }
 .content{  
-    background-color:  rgb(249, 232, 205);
+    background-color:  rgb(111, 153, 145);
   padding:5% 5%;
   text-align:justify
 }
@@ -354,7 +355,7 @@ h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 80px;
     margin-bottom: 30px;
-    color:  white;
+    color:  rgb(134, 189, 166);
     
 }
 
@@ -401,10 +402,11 @@ body, html {
       padding-bottom: 0%;
   } */
 #footer{
+    font-family: 'Imbue', serif;
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(249, 232, 205);
+    background-color:#5e847c;
    padding-top: 0px;
     /* position: absolute; 
         top: 100%; 
@@ -422,3 +424,41 @@ li{
     padding-top: 10%;
     overflow: hidden;
 }
+.inside {
+width: 100%;
+height: 100%;
+position: relative;
+ }
+ .inside div {
+     position: absolute;
+     width: 50%;
+     height: 50%;
+     top: 25%;
+     left: 25%;
+     background-color:rgba(111, 153, 145,0.8);
+     border-radius: 20px;
+     text-align: center;
+     font-size: large;
+     color: black;
+ }
+ .inside div h2{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-family: 'Imbue', serif;
+ }
+ .inside div p {
+    font-size: large;
+   
+     text-align: center;
+     text-overflow: hidden;
+     text-indent: 5px;
+ }
+/* .parallax div {
+    width: 100%;
+    height: 100%;
+}
+
+div p{
+    display: inline-block;
+    color: white
+}  */

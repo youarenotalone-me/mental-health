@@ -333,7 +333,7 @@ a{
   50% { transform: scale(1.2) translateY(-400px)}
 }
 .content{  
-    background-color:  rgb(111, 153, 145);
+    background-color:  white;
   padding:5% 5%;
   text-align:justify
 }
@@ -435,7 +435,7 @@ position: relative;
      height: 50%;
      top: 25%;
      left: 25%;
-     background-color:rgba(111, 153, 145,0.8);
+     background-color:rgba(255, 255, 255, 0.8);
      border-radius: 20px;
      text-align: center;
      font-size: large;

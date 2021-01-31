@@ -448,17 +448,46 @@ position: relative;
  }
  .inside div p {
     font-size: large;
-   
+     height: 60%;
      text-align: center;
      text-overflow: hidden;
      text-indent: 5px;
  }
- #img1 {display:block;}
+ #img1 {  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+   display:block;}
 #img2 {display:none}
-
+#img3 {display: none;}
 @media all and (max-width: 899px) {
     #img1 {display: none;}
     #img2 {display: block;}
+    #img3 {display: none;}
+    h1{
+      font-size: calc(
+    50px + (21 - 16) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+    }
+    p { overflow: hidden;}
+}
+@media all and (max-width: 609) {
+  .inside div {
+    height: 100%
+  }
+   .inside div p { 
+    height: 200px; 
+    min-height: fit-content;
+     overflow: scroll;
+    }
+  #img1 {display: none;}
+  #img2 {display: none;}
+  #img3 {display:  inline-block;
+    vertical-align: middle;
+    background-size:100%;
+    background-repeat: no-repeat;
+  min-width: fit-content;
+width: fit-content;}
 }
 /* .parallax div {
     width: 100%;
